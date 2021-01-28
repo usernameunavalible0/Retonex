@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/reidcraig/Desktop/Retonex/Retonex.csproj",
+      "projectUniqueName": "/Users/reidcraig/Documents/GitHub/Retonex/Retonex.csproj",
       "projectName": "Retonex",
-      "projectPath": "/Users/reidcraig/Desktop/Retonex/Retonex.csproj",
+      "projectPath": "/Users/reidcraig/Documents/GitHub/Retonex/Retonex.csproj",
       "packagesPath": "/Users/reidcraig/.nuget/packages/",
-      "outputPath": "/Users/reidcraig/Desktop/Retonex/obj/",
+      "outputPath": "/Users/reidcraig/Documents/GitHub/Retonex/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/reidcraig/.nuget/NuGet/NuGet.Config"
