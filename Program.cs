@@ -38,6 +38,7 @@ namespace Retonex
 
             Console.ReadLine();
 
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Press any key to close the window...");
 
             Console.ReadKey();
