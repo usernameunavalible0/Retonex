@@ -29,12 +29,8 @@ namespace Retonex
 
             Console.ForegroundColor = ConsoleColor.Black;
 
-            Console.WriteLine("l---------l");
-            Console.WriteLine("l         l");
-            Console.WriteLine("l         l");
-            Console.WriteLine("l         l");
-            Console.WriteLine("l         l");
-            Console.WriteLine("l---------l");
+            Console.WriteLine();
+            Console.WriteLine();
 
             Console.ReadLine();
 
