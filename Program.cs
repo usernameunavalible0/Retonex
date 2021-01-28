@@ -23,10 +23,20 @@ namespace Retonex
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Retonex v 1.0.0");
+            Console.WriteLine("Retonex v1.0.0");
             Console.WriteLine("Loading...");
+            Console.WriteLine("Done!");
 
             Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.WriteLine("I---------I");
+            Console.WriteLine("I         I");
+            Console.WriteLine("I         I");
+            Console.WriteLine("I         I");
+            Console.WriteLine("I         I");
+            Console.WriteLine("I---------I");
+
+            Console.ReadLine();
 
             Console.WriteLine("Press any key to close the window...");
 
