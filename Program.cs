@@ -29,12 +29,12 @@ namespace Retonex
 
             Console.ForegroundColor = ConsoleColor.Black;
 
-            Console.WriteLine("I---------I");
-            Console.WriteLine("I         I");
-            Console.WriteLine("I         I");
-            Console.WriteLine("I         I");
-            Console.WriteLine("I         I");
-            Console.WriteLine("I---------I");
+            Console.WriteLine("l---------l");
+            Console.WriteLine("l         l");
+            Console.WriteLine("l         l");
+            Console.WriteLine("l         l");
+            Console.WriteLine("l         l");
+            Console.WriteLine("l---------l");
 
             Console.ReadLine();
 
