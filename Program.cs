@@ -19,7 +19,7 @@ namespace Retonex
             Console.WriteLine(userName + " Type Launch when your ready to start the Launcher");
 
             Console.ReadLine();
-
+            
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.Red;
