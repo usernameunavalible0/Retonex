@@ -27,10 +27,16 @@ namespace Retonex
             Console.WriteLine("Loading...");
             Console.WriteLine("Done!");
 
-            Console.ForegroundColor = ConsoleColor.Black;
+            Console.WriteLine();
+            Console.WriteLine();
+            
+            Console.WriteLine("ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
+            Console.ForegroundColor = ConsoleColor.Green;
 
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("==> Downloading Bitmaps...");
+            Console.WriteLine("==> 1%");
+
+            System.Threading.Thread.Sleep(1000);
 
             Console.ReadLine();
 
