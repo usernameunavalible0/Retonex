@@ -13,7 +13,7 @@ namespace Retonex
             string password;
             int ctr = 0;
 
-            Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
+            Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩\nPlease Enter a username...");
             Console.WriteLine("");
 
             string nameU = Console.ReadLine();
@@ -91,6 +91,8 @@ namespace Retonex
             Long:
             {
             Console.Clear();
+
+            Console.ForegroundColor = ConsoleColor.Red;
 
             System.Threading.Thread.Sleep(2000);
 
