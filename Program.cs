@@ -38,6 +38,8 @@ namespace Retonex
 
             System.Threading.Thread.Sleep(1000);
 
+            Console.WriteLine("Sleeping Done :)");
+
             Console.ReadLine();
 
             Console.ForegroundColor = ConsoleColor.Red;
