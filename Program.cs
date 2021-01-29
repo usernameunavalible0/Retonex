@@ -36,7 +36,7 @@ namespace Retonex
             Console.WriteLine("==> Downloading Bitmaps...");
             Console.WriteLine("==> 1%");
 
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(5000);
 
             Console.WriteLine("Sleeping Done :)");
 
