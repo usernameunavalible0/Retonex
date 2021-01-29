@@ -9,17 +9,17 @@ namespace Retonex
             // Change the Apperence
             Console.Title = "Retonex";
             Console.ForegroundColor = ConsoleColor.Red;
+            
+            Console.WriteLine("")
 
-            Console.WriteLine("Welcome to Retonex!\nEnter a username bellow");
+            string nameU = Console.ReadLine();
 
-            string userName = Console.ReadLine();
+            Console.WriteLine("Your username is now " + nameU + "!");
 
-            Console.WriteLine("Your username is now " + userName + "!");
-
-            Console.WriteLine(userName + " Type Launch when your ready to start the Launcher");
+            Console.WriteLine(nameU + " Type Launch when your ready to start the Launcher");
 
             Console.ReadLine();
-            
+
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.Red;
@@ -29,7 +29,7 @@ namespace Retonex
 
             Console.WriteLine();
             Console.WriteLine();
-            
+
             Console.WriteLine("ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
             Console.ForegroundColor = ConsoleColor.Green;
 
@@ -40,7 +40,7 @@ namespace Retonex
             System.Threading.Thread.Sleep(3000);
 
             Console.WriteLine("==> 21%");
-            
+
             System.Threading.Thread.Sleep(5000);
 
             Console.WriteLine("==> 56%");
@@ -57,12 +57,13 @@ namespace Retonex
 
             Console.WriteLine("==> 99%");
 
-            Console.ForegroundColor = ConsoleColor.Red;
+            System.Threading.Thread.Sleep(8000);
 
-            System.Threading.Thread.Sleep(7000);
+            Console.WriteLine("==> 100%");
 
-            Console.WriteLine("[ℝ𝕖𝕥𝕠𝕟𝕖𝕩] Sorry, something went wrong. Trying again...");
-            goto Bitmap;
+            System.Threading.Thread.Sleep(6000);
+
+            Console.WriteLine("==> Please enter your Retonex password");
 
             Console.ReadLine();
 
