@@ -8,7 +8,7 @@ namespace Retonex
         {
             // Change the Apperence
             Console.Title = "Retonex";
-            Console.ForegroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Red;
 
             Console.WriteLine("Welcome to Retonex!\nEnter a username bellow");
 
