@@ -60,7 +60,7 @@ namespace Retonex
 
             System.Threading.Thread.Sleep(7000);
 
-            Console.WriteLine("< ℝ𝕖𝕥𝕠𝕟𝕖𝕩 > Sorry, something went wrong. Trying again...");
+            Console.WriteLine("[ℝ𝕖𝕥𝕠𝕟𝕖𝕩] Sorry, something went wrong. Trying again...");
 
             Console.ReadLine();
 
