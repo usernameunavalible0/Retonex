@@ -36,9 +36,31 @@ namespace Retonex
             Console.WriteLine("==> Downloading Bitmaps...");
             Console.WriteLine("==> 1%");
 
+            System.Threading.Thread.Sleep(3000);
+
+            Console.WriteLine("==> 21%");
+            
             System.Threading.Thread.Sleep(5000);
 
-            Console.WriteLine("Sleeping Done :)");
+            Console.WriteLine("==> 56%");
+
+            System.Threading.Thread.Sleep(1000);
+
+            Console.WriteLine("==> 67%");
+
+            System.Threading.Thread.Sleep(3000);
+
+            Console.WriteLine("==> 84%");
+
+            System.Threading.Thread.Sleep(3000);
+
+            Console.WriteLine("==> 99%");
+
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            System.Threading.Thread.Sleep(7000);
+
+            Console.WriteLine("< ℝ𝕖𝕥𝕠𝕟𝕖𝕩 > Sorry, something went wrong. Trying again...");
 
             Console.ReadLine();
 
