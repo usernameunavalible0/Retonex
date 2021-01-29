@@ -10,7 +10,11 @@ namespace Retonex
             Console.Title = "Retonex";
             Console.ForegroundColor = ConsoleColor.Red;
             
-            Console.WriteLine("")
+            string password;
+            int ctr = 0;
+
+            Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
+            Console.WriteLine("");
 
             string nameU = Console.ReadLine();
 
@@ -31,9 +35,9 @@ namespace Retonex
             Console.WriteLine();
 
             Console.WriteLine("ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
+
             Console.ForegroundColor = ConsoleColor.Green;
 
-            Bitmap:
             Console.WriteLine("==> Downloading Bitmaps...");
             Console.WriteLine("==> 1%");
 
@@ -63,14 +67,41 @@ namespace Retonex
 
             System.Threading.Thread.Sleep(6000);
 
+        do
+        {
             Console.WriteLine("==> Please enter your Retonex password");
+            password = Console.ReadLine();
 
-            Console.ReadLine();
+            if(password != "admin1")
+            ctr++;
+            else
+            ctr=1;
 
+        }
+        while((password != "admin1") && (ctr != 3));
+
+            if (ctr == 3) {
+                Console.WriteLine("Login attempt three or more times. Try later!");
+                goto End;
+            } else {
+                Console.WriteLine("The password entered successfully!");
+                System.Threading.Thread.Sleep(1000);
+                goto Long;
+            }
+            Long:
+            {
+            Console.Clear();
+
+            System.Threading.Thread.Sleep(2000);
+
+            Console.WriteLine("ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
+            }
+
+            End:
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Press any key to close the window...");
 
             Console.ReadKey();
-        ;
+        }
     }
 }
