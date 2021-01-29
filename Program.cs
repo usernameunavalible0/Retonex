@@ -33,6 +33,7 @@ namespace Retonex
             Console.WriteLine("ℝ𝕖𝕥𝕠𝕟𝕖𝕩");
             Console.ForegroundColor = ConsoleColor.Green;
 
+            Bitmap:
             Console.WriteLine("==> Downloading Bitmaps...");
             Console.WriteLine("==> 1%");
 
@@ -61,6 +62,7 @@ namespace Retonex
             System.Threading.Thread.Sleep(7000);
 
             Console.WriteLine("[ℝ𝕖𝕥𝕠𝕟𝕖𝕩] Sorry, something went wrong. Trying again...");
+            goto Bitmap;
 
             Console.ReadLine();
 
