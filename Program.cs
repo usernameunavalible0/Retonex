@@ -71,6 +71,6 @@ namespace Retonex
             Console.WriteLine("Press any key to close the window...");
 
             Console.ReadKey();
-        }
+        ;
     }
 }
