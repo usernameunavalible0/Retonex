@@ -31,7 +31,7 @@ namespace Retonex
             if (admin == 1) {
                 goto Regular;
             } else {
-                goto Regular;
+                goto Passworg;
             }
             Regular:
             Console.WriteLine("Your username is now " + nameU + "!");
@@ -83,7 +83,7 @@ namespace Retonex
 
             System.Threading.Thread.Sleep(6000);
 
-            Prgstrt:
+            Passworg:
         do
         {
             Console.WriteLine("==> Please enter your Retonex password");
