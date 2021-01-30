@@ -12,9 +12,9 @@ namespace Retonex
             
             string password;
             int ctr = 0;
+            int admin = 0;
 
             Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩\nPlease Enter a username...");
-            Console.WriteLine("");
 
             string nameU = Console.ReadLine();
 
