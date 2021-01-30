@@ -16,11 +16,6 @@ namespace Retonex
 
             Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩\nPlease Enter a username...");
             string nameU = Console.ReadLine();
-        
-            if(nameU != "Admin") {
-            admin++;
-            goto Prgstrt;
-            }
 
             Console.WriteLine("Your username is now " + nameU + "!");
 
