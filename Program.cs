@@ -21,8 +21,6 @@ namespace Retonex
             nameU = Console.ReadLine();
 
             if(nameU != "Admin")
-            admin++;
-            else
             admin=1;
 
         }
