@@ -13,10 +13,27 @@ namespace Retonex
             string password;
             int ctr = 0;
             int admin = 0;
+            string nameU;
 
-            Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩\nPlease Enter a username...");
-            string nameU = Console.ReadLine();
+        do
+        {
+            Console.WriteLine("Please enter your Retonex Username...");
+            nameU = Console.ReadLine();
 
+            if(nameU != "Admin")
+            admin++;
+            else
+            admin=1;
+
+        }
+        while((nameU != "Admin") && (admin != 1));
+
+            if (admin == 1) {
+                goto Prgstrt;
+            } else {
+                goto Regular;
+            }
+            Regular:
             Console.WriteLine("Your username is now " + nameU + "!");
 
             Console.WriteLine(nameU + " Type Launch when your ready to start the Launcher");
