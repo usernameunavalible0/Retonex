@@ -1,0 +1,11 @@
+HOW TO USE:
+
+To use this program your going to need to open a terminal/ console.
+
+STEPS:
+1: Open your Terminal/ console.
+2: type "cd (Path of Retonex Folder)"
+3: type "dotnet run"
+Program will start...
+
+ENJOY!
