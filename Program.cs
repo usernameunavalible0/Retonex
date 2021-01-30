@@ -15,8 +15,12 @@ namespace Retonex
             int admin = 0;
 
             Console.WriteLine("Welcome to ℝ𝕖𝕥𝕠𝕟𝕖𝕩\nPlease Enter a username...");
-
             string nameU = Console.ReadLine();
+        
+            if(nameU != "Admin") {
+            admin++;
+            goto Prgstrt;
+            }
 
             Console.WriteLine("Your username is now " + nameU + "!");
 
@@ -67,12 +71,13 @@ namespace Retonex
 
             System.Threading.Thread.Sleep(6000);
 
+            Prgstrt:
         do
         {
             Console.WriteLine("==> Please enter your Retonex password");
             password = Console.ReadLine();
 
-            if(password != "admin1")
+            if(password != "admin")
             ctr++;
             else
             ctr=1;
