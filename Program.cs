@@ -29,7 +29,7 @@ namespace Retonex
         while((nameU != "Admin") && (admin != 1));
 
             if (admin == 1) {
-                goto Prgstrt;
+                goto Regular;
             } else {
                 goto Regular;
             }
