@@ -84,6 +84,8 @@ namespace Retonex
             Passworg:
         do
         {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("==> Please enter your Retonex password");
             password = Console.ReadLine();
 
