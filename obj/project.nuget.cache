@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UkfUMq6Z0bqKetiikBZpqi6g4uxCpktlC3miRbVb4tyGUIsbstoQvKStJZdJKvZ65IbeTCWfY2SsULalciGsZw==",
+  "dgSpecHash": "Zo0ixNDMiNybyDkLMNVFbFhPqJGZIKs7JTGQiixVmLgQ/JZowVimC7xWNybXUop/ZZ+i32Xy+N+HOUutzKb7ww==",
   "success": true,
   "projectFilePath": "/Users/reidcraig/Documents/GitHub/Retonex/Retonex.csproj",
-  "expectedPackageFiles": [
-    "/Users/reidcraig/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/5.0.2/microsoft.netcore.app.runtime.osx-x64.5.0.2.nupkg.sha512",
-    "/Users/reidcraig/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/5.0.2/microsoft.aspnetcore.app.runtime.osx-x64.5.0.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

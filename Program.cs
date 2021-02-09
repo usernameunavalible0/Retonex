@@ -89,7 +89,7 @@ namespace Retonex
             Console.WriteLine("==> Please enter your Retonex password");
             password = Console.ReadLine();
 
-            if(password != "admin")
+            if(password != "admin1")
             ctr++;
             else
             ctr=1;
