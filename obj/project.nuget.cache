@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1PDq7SOlOlwmrq7BJzoc24e9jWRZkjj/ZQmkh5JHPJZmt350ksq7p8dUBtxjorM3HYjdNGwvsJbxkCrZ6qEEYA==",
+  "dgSpecHash": "UkfUMq6Z0bqKetiikBZpqi6g4uxCpktlC3miRbVb4tyGUIsbstoQvKStJZdJKvZ65IbeTCWfY2SsULalciGsZw==",
   "success": true,
   "projectFilePath": "/Users/reidcraig/Documents/GitHub/Retonex/Retonex.csproj",
   "expectedPackageFiles": [
-    "/Users/reidcraig/.nuget/packages/microsoft.netcore.app.runtime.win-x64/5.0.2/microsoft.netcore.app.runtime.win-x64.5.0.2.nupkg.sha512",
-    "/Users/reidcraig/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/5.0.2/microsoft.aspnetcore.app.runtime.win-x64.5.0.2.nupkg.sha512",
-    "/Users/reidcraig/.nuget/packages/microsoft.netcore.app.host.win-x64/5.0.2/microsoft.netcore.app.host.win-x64.5.0.2.nupkg.sha512"
+    "/Users/reidcraig/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/5.0.2/microsoft.netcore.app.runtime.osx-x64.5.0.2.nupkg.sha512",
+    "/Users/reidcraig/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/5.0.2/microsoft.aspnetcore.app.runtime.osx-x64.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }
