@@ -89,13 +89,13 @@ namespace Retonex
             Console.WriteLine("==> Please enter your Retonex password");
             password = Console.ReadLine();
 
-            if(password != "admin1")
+            if(password != "dumbass")
             ctr++;
             else
             ctr=1;
 
         }
-        while((password != "admin1") && (ctr != 3));
+        while((password != "dumbass") && (ctr != 3));
 
             if (ctr == 3) {
                 Console.WriteLine("Login attempt three or more times. Try later!");
