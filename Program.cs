@@ -53,6 +53,7 @@ namespace Retonex
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.WriteLine("==> Downloading Bitmaps...");
+            Download.Downloader();
             Console.WriteLine("==> 1%");
 
             System.Threading.Thread.Sleep(3000);

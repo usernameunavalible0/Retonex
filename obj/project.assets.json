@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Heaton\\.nuget\\packages\\": {}
+    "/Users/reidcraig/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Heaton\\Documents\\GitHub\\Retonex\\Retonex.csproj",
+      "projectUniqueName": "/Users/reidcraig/Documents/GitHub/Retonex/Retonex.csproj",
       "projectName": "Retonex",
-      "projectPath": "C:\\Users\\Heaton\\Documents\\GitHub\\Retonex\\Retonex.csproj",
-      "packagesPath": "C:\\Users\\Heaton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Heaton\\Documents\\GitHub\\Retonex\\obj\\",
+      "projectPath": "/Users/reidcraig/Documents/GitHub/Retonex/Retonex.csproj",
+      "packagesPath": "/Users/reidcraig/.nuget/packages/",
+      "outputPath": "/Users/reidcraig/Documents/GitHub/Retonex/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Heaton\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/reidcraig/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

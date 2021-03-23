@@ -1,0 +1,4 @@
+/Users/reidcraig/Documents/GitHub/Retonex/bin/Release/net5.0/publish/Retonex.dll
+/Users/reidcraig/Documents/GitHub/Retonex/bin/Release/net5.0/publish/Retonex.deps.json
+/Users/reidcraig/Documents/GitHub/Retonex/bin/Release/net5.0/publish/Retonex.runtimeconfig.json
+/Users/reidcraig/Documents/GitHub/Retonex/bin/Release/net5.0/publish/Retonex.pdb
